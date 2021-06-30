@@ -19,7 +19,14 @@ export default class App extends Component {
     return (
       <Router>
         <div>
-          <h2>Header</h2>
+          <section>
+
+            <div><Link to='/'>Home</Link></div>
+            <div><Link to='/signup'>Sign Up</Link></div>
+            <div><Link to='/login'>Login</Link></div>
+            <div><Link to='/todolist'>Todo List</Link></div>
+
+          </section>
           <Switch>
             <Route 
               path="/" 
